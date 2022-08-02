@@ -1,4 +1,10 @@
-# HD wallet SDK with bip32,bip44,bip49
+# HD wallet SDK with bip32,bip44,bip49 using js
+
+# for test : 
+    step 1 : clone repository
+    step 2 : run npm install command
+    step 3 : run node src/index.js command
+
 
 Supported coin :
     BTC
