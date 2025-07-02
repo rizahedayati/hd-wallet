@@ -45,7 +45,6 @@
     "bs58check": "^2.1.2",
     "caver-js-ext-kas": "^1.9.0",
     "create-hash": "^1.2.0",
-    "decredjs-lib": "^0.1.1",
     "ecashaddrjs": "^1.0.7",
     "eccrypto-js": "^5.4.0",
     "ed25519-hd-key": "^1.2.0",

@@ -8,7 +8,6 @@ const getBCHAddress = require("./bch_address");
 const getXRPAddress = require("./xrp_address");
 const getTHETAddress = require("./theta_address");
 const getXECAddress = require("./xec_address");
-const getDCRAddress = require("./dcr_address");
 const getLUNAAddress = require("./luna_address");
 const getXEMAddress = require("./xem_address");
 const getXLMAddress = require("./xlm_address");
@@ -95,7 +94,7 @@ async function getAddress(symbol, node, seed, mnemonic, networkInfo) {
       address = getTHETAddress(mnemonic);
       break;
     case "DCR":
-      address = getDCRAddress(node);
+      address = p2pkhAddress(node, networkInfo);
       break;
 
     case "LUNA":

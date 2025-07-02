@@ -239,6 +239,16 @@ function coinInfo(coin) {
       symbol: "DCR",
       coinId: 42,
       derivationPath: `m/${purpose}'/42'/0'/0/0`,
+      networkInfo: {
+        messagePrefix: "\x17Decred Signed Message:\n",
+        bip32: {
+          public: 0x02fda926,
+          private: 0x02fda4e8,
+        },
+        pubKeyHash: 0x073f,
+        scriptHash: 0x071a,
+        wif: 0x22de,
+      },
     },
     LUNA: {
       name: "terra",

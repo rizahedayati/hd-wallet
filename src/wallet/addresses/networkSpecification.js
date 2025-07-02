@@ -160,6 +160,16 @@ function getNetworkInfo(network) {
       scriptHash: 0x7d,
       wif: 0x80,
     },
+    DCR: {
+      messagePrefix: "\x17Decred Signed Message:\n",
+      bip32: {
+        public: 0x02fda926,
+        private: 0x02fda4e8,
+      },
+      pubKeyHash: 0x073f,
+      scriptHash: 0x071a,
+      wif: 0x22de,
+    },
   };
 
   return networks[network];

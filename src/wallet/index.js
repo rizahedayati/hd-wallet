@@ -81,8 +81,9 @@ async function getTokenAddress(token, network, wordCount) {
 }
 
 async function main() {
-  console.log("createWallet", await createWallet(24));
+  // console.log("createWallet", await createWallet(24));
   // console.log("get token address", await getTokenAddress("MINA", "MINA", 24));
+  console.log("get token network address", await getTokenAddress("TRX","TRX", 24));
 }
 
 main();
